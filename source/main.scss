@@ -1,0 +1,33 @@
+@use "config/config";
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 35px;
+
+    h1{
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 10px;
+        border-bottom: 1px solid black;
+    }
+}
+
+.imagens{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    column-gap: 2%;
+    row-gap: 3%;
+
+
+
+    .imagens-card{
+        max-width: 250px;
+
+        img{
+            width: 100%;
+        }
+    }
+}
